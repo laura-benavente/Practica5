@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente general para toda la página */
+    margin: 0; /* Margen */
+    padding: 20px; /* Relleno */
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+header {
+    background-color: #8377b9; /* Color de fondo del header */
+    color: white; /* Color del texto */
+    padding: 10px; /* Relleno */
+    text-align: center; /* Centrado del texto */
+}
+
+h2.subrayado {
+    text-decoration: underline; /* Subrayado del encabezado */
+}
+
+.negrita {
+    font-weight: bold; /* Negrita */
+}
+
+.cursiva {
+    font-style: italic; /* Cursiva */
+}
+
+footer {
+    text-align: center; /* Centrado del texto del footer */
+    margin-top: 20px; /* Margen superior */
+}
+
+.copyright {
+    font-size: 0.8em; /* Letra pequeña para el copyright */
+    color: #555; /* Color gris para el texto del copyright */
+}
