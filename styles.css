@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* Fuente general para toda la página */
-    margin: 0; /* Margen */
-    padding: 20px; /* Relleno */
+    margin: 0; /* Margen */;
     background-color: #f4f4f4; /* Color de fondo */
 }
 
@@ -10,26 +9,34 @@ header {
     color: white; /* Color del texto */
     padding: 10px; /* Relleno */
     text-align: center; /* Centrado del texto */
+    height: 100px; /* altura*/
+    width: 100%; /*ancho*/
 }
 
 h2.subrayado {
-    text-decoration: underline; /* Subrayado del encabezado */
+    text-decoration: underline; /* Subrayado del encabezado de segundo nivel */
 }
-
+main {
+    text-align: center; /*centrar texto de parrafos*/
+    line-height: 40px; /*espacio entre lineas*/
+}
 .negrita {
-    font-weight: bold; /* Negrita */
+    font-weight: bold; /* Negrita del parrafo */
 }
 
 .cursiva {
-    font-style: italic; /* Cursiva */
+    font-style: italic; /* Cursiva del parrafo*/
 }
 
 footer {
     text-align: center; /* Centrado del texto del footer */
-    margin-top: 20px; /* Margen superior */
+    background-color: #8377b9;
+    position: fixed; /* posición*/
+    width: 100%; /* el footer ocupará todo el ancho de la pantalla */
+    max-height: 60px; /* altura maxima del footer*/
 }
 
 .copyright {
-    font-size: 0.8em; /* Letra pequeña para el copyright */
-    color: #555; /* Color gris para el texto del copyright */
+    font-size: 0.8em; /* Tamaño letra para el copyright */
+    color: #ffffff; /* Color blanco fuente de copyright */
 }
